@@ -38,7 +38,7 @@ class buisnessCardApp extends StatelessWidget {
             ),
             Card(
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-              margin: EdgeInsets.symmetric(horizontal: 16,vertical: 8),
+              margin: const EdgeInsets.symmetric(horizontal: 16,vertical: 8),
               child: const ListTile(
                 leading: Icon(
                   Icons.phone,
@@ -53,7 +53,7 @@ class buisnessCardApp extends StatelessWidget {
             ),
             Card(
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-              margin: EdgeInsets.symmetric(horizontal: 16,vertical: 8),
+              margin: const EdgeInsets.symmetric(horizontal: 16,vertical: 8),
               child: const ListTile(
                 leading: Icon(
                   Icons.mail,
